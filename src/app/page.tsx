@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import HeroButtons from "@/components/HeroButtons";
+import About from "@/components/About";
+import Services from "@/components/Services";
+
 
 export default function Home() {
   return (
@@ -31,64 +34,8 @@ export default function Home() {
         </div>
       </section>
       <section id="about">
-        <div className="about-section">
-          <h2 className="about-heading">About me:</h2>
-
-          <p className="about-text">
-            Hi, my name is Pouria Vojdani, i am a Fullstack web developer, UI
-            designer, and Mobile developer. I have honed my skills in Web
-            Development and advanced UI design principles.
-            <br />
-            Here are the major skills i have.
-          </p>
-
-          <div className="experience-row">
-            <h1 className="experience-number">5+</h1>
-
-            <p className="experience-text">
-              Years of experience. Specialised in building apps, while ensuring
-              a seamless web experience for end users.
-            </p>
-          </div>
-
-          <div className="skills-grid">
-            <div className="skill-card active-skill">
-              <div className="skill-icon">✦</div>
-
-              <h3>
-                UI & UX <br />
-                DESIGNING
-              </h3>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">⌘</div>
-
-              <h3>
-                WEB <br />
-                DEVELOPMENT
-              </h3>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">◈</div>
-
-              <h3>
-                MOBILE <br />
-                DEVELOPMENT
-              </h3>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">⚙</div>
-
-              <h3>
-                WEB SCRAPING <br />
-                WITH PYTHON
-              </h3>
-            </div>
-          </div>
-        </div>
+        <About />
+        <Services />
       </section>
 
       <section id="projects">
