@@ -1,3 +1,6 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
@@ -554,8 +557,20 @@ section {
 
   transform: translateY(-3px);
 }
+/* Default desktop */
+header,
+.hero-flex,
+.about-section,
+.services-section,
+.projects-section,
+.contact-section,
+.footer {
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
-@media (max-width: 2500px) {
+/* Very large screens */
+@media (min-width: 1800px) {
   header,
   .hero-flex,
   .about-section,
@@ -563,32 +578,24 @@ section {
   .projects-section,
   .contact-section,
   .footer {
-    padding-left: 360px;
-    padding-right: 360px;
+    padding-left: 320px;
+    padding-right: 320px;
   }
-  .project-card {
-    padding: 16px;
-    padding-bottom: 24px;
+
+  .hero-title {
+    font-size: 3.15rem;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+  }
+
+  .hero-image {
+    width: 420px;
   }
 }
 
-@media (max-width: 1600px) {
-  header,
-  .hero-flex,
-  .about-section,
-  .services-section,
-  .projects-section,
-  .contact-section,
-  .footer {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-  .project-card {
-    padding: 12px;
-    padding-bottom: 16px;
-  }
-}
-
+/* Smaller desktops */
 @media (max-width: 1400px) {
   header,
   .hero-flex,
@@ -602,6 +609,7 @@ section {
   }
 }
 
+/* Tablets */
 @media (max-width: 1200px) {
   header,
   .hero-flex,
@@ -614,6 +622,7 @@ section {
     padding-right: 100px;
   }
 }
+
 @media (min-width: 1800px) {
   .hero-intro {
     font-size: 1.4rem;
@@ -638,4 +647,3 @@ section {
     width: 420px;
   }
 }
-
