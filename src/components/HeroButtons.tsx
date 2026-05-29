@@ -18,7 +18,7 @@ export default function HeroButtons() {
             backgroundColor: "#8171df",
             padding: {
                   xs: "8px 24px",
-                  xl: "10px 34px",
+                  xl: "10px 32px",
                 },
             borderRadius: "8px",
             textTransform: "none",
@@ -43,7 +43,7 @@ export default function HeroButtons() {
             color: "white",
             padding: {
                   xs: "8px 24px",
-                  xl: "10px 34px",
+                  xl: "10px 32px",
                 },
             borderRadius: "8px",
             textTransform: "none",

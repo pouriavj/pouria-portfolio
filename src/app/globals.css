@@ -85,7 +85,7 @@ body {
   left: 0;
 }
 header {
-  height: 70px;
+  height: 64px;
   background-color: #181824;
 
   display: flex;
@@ -96,7 +96,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
 
   color: #8171df;
@@ -113,7 +113,7 @@ header nav a {
   color: #ffffff;
   text-decoration: none;
 
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-weight: 600;
 
   transition: 0.2s;
@@ -142,6 +142,10 @@ section {
 .hero-left {
   margin-bottom: 48px;
   z-index: 2;
+}
+.hero-image {
+  width: 387px;
+  height: auto;
 }
 
 .hero-intro {
@@ -247,7 +251,7 @@ section {
 
   background-color: #bdbdbd;
 
-  padding: 28px 28px;
+  padding: 24px 24px;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -338,7 +342,7 @@ section {
 }
 
 .service-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
 
   color: white;
@@ -351,7 +355,7 @@ section {
 }
 
 .service-card p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.9;
 
   color: #e5e5e5;
@@ -387,7 +391,7 @@ section {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 26px;
+  gap: 16px;
 }
 
 .project-card {
@@ -396,7 +400,7 @@ section {
   border-radius: 6px;
 
   padding: 12px;
-  padding-bottom: 16px;
+  padding-bottom: 18px;
 
   transition: 0.25s;
 }
@@ -410,7 +414,7 @@ section {
 }
 
 .project-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
 
   color: #8171df;
@@ -499,7 +503,7 @@ section {
   padding: 0px 28px;
 }
 .contact-right h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-top: 0;
   color: #d9d9d9;
 }
@@ -604,8 +608,8 @@ header,
   .projects-section,
   .contact-section,
   .footer {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 160px;
+    padding-right: 160px;
   }
 }
 
@@ -624,6 +628,12 @@ header,
 }
 
 @media (min-width: 1800px) {
+  header h1{
+    font-size: 1.4rem;
+  }
+  header nav a {
+    font-size: 1rem;
+  }
   .hero-intro {
     font-size: 1.4rem;
   }
@@ -636,10 +646,6 @@ header,
     font-size: 1.1rem;
     line-height: 1.6;
   }
-}
-.hero-image {
-  width: 387px;
-  height: auto;
 }
 
 @media (min-width: 1800px) {

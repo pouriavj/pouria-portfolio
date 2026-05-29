@@ -44,7 +44,7 @@ export default function Projects() {
               sx={{
                 backgroundColor: "#8171df",
                 padding: {
-                  xs: "6px 28px",
+                  xs: "6px 26px",
                   xl: "8px 54px",
                 },
                 textTransform: "none",
@@ -64,11 +64,11 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
-              endIcon={<GitHubIcon />}
+              
               sx={{
                 borderColor: "#8171df",
                 padding: {
-                  xs: "6px 20px",
+                  xs: "6px 26px",
                   xl: "8px 36px",
                 },
                 color: "white",
@@ -100,8 +100,7 @@ export default function Projects() {
           <h3>Tea Shop</h3>
 
           <p>
-            A complete ecommerce tea store featuring seamless shopping,
-            payments, cart management, and ratings.
+            A complete ecommerce tea store featuring shopping, payments, cart management, and ratings.
           </p>
 
           <div className="project-buttons">
@@ -114,7 +113,7 @@ export default function Projects() {
               sx={{
                 backgroundColor: "#8171df",
                 padding: {
-                  xs: "6px 28px",
+                  xs: "6px 26px",
                   xl: "8px 54px",
                 },
                 textTransform: "none",
@@ -134,11 +133,11 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
-              endIcon={<GitHubIcon />}
+         
               sx={{
                 borderColor: "#8171df",
                 padding: {
-                  xs: "6px 20px",
+                  xs: "6px 26px",
                   xl: "8px 36px",
                 },
                 color: "white",
@@ -184,7 +183,7 @@ export default function Projects() {
               sx={{
                 backgroundColor: "#8171df",
                 padding: {
-                  xs: "6px 28px",
+                  xs: "6px 26px",
                   xl: "8px 54px",
                 },
                 textTransform: "none",
@@ -204,11 +203,11 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
-              endIcon={<GitHubIcon />}
+            
               sx={{
                 borderColor: "#8171df",
                 padding: {
-                  xs: "6px 20px",
+                  xs: "6px 26px",
                   xl: "8px 36px",
                 },
                 color: "white",
