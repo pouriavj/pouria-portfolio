@@ -12,22 +12,23 @@ export default function HeroButtons() {
     <div className="hero-buttons">
       <Link href="#about">
         <Button
+        className="hero-button"
           variant="contained"
           endIcon={<PersonIcon />}
           sx={{
             backgroundColor: "#8171df",
             padding: {
-                  xs: "8px 24px",
-                  xl: "10px 32px",
-                },
+              xs: "8px 24px",
+              xl: "10px 32px",
+            },
             borderRadius: "8px",
             textTransform: "none",
             fontSize: "1rem",
             fontWeight: 600,
             fontFamily: "Poppins",
-             "&:hover": {
-                backgroundColor: "#6d5dd3",
-              },
+            "&:hover": {
+              backgroundColor: "#6d5dd3",
+            },
           }}
         >
           About me
@@ -36,15 +37,16 @@ export default function HeroButtons() {
 
       <Link href="#projects">
         <Button
+        className="hero-button"
           variant="outlined"
           endIcon={<CodeIcon />}
           sx={{
             borderColor: "#8171df",
             color: "white",
             padding: {
-                  xs: "8px 24px",
-                  xl: "10px 32px",
-                },
+              xs: "8px 24px",
+              xl: "10px 32px",
+            },
             borderRadius: "8px",
             textTransform: "none",
             fontSize: "1rem",

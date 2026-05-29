@@ -21,8 +21,10 @@ export default function Home() {
             </p>
 
             <HeroButtons />
+            
           </div>
           <HeroImage />
+          <div className="mobile-rectangle"></div>
           <div className="rectangle"></div>
         </div>
       </section>
