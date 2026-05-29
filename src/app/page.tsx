@@ -1,4 +1,3 @@
-
 import HeroButtons from "@/components/HeroButtons";
 import About from "@/components/About";
 import Services from "@/components/Services";
@@ -17,9 +16,8 @@ export default function Home() {
             <h1 className="hero-title">Pouria Vojdani</h1>
 
             <p className="hero-description">
-              Freelance UI designer, Fullstack developer, & <br />
-              Data Miner. I create seamless web experiences <br />
-              for end-users.
+              Fullstack web developer, Freelance UI designer, & <br />Problem Solver. I
+              create seamless web experiences <br /> for end-users.
             </p>
 
             <HeroButtons />
