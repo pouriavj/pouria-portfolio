@@ -3,7 +3,8 @@ import styles from "./page.module.css";
 import HeroButtons from "@/components/HeroButtons";
 import About from "@/components/About";
 import Services from "@/components/Services";
-
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -24,10 +25,10 @@ export default function Home() {
             <HeroButtons />
           </div>
           <Image
-            src={"/Pouria.png"}
+            src={"/Me.png"}
             alt="My picture"
-            width={337}
-            height={392}
+            width={387}
+            height={408}
             priority
           />
           <div className="rectangle"></div>
@@ -39,11 +40,11 @@ export default function Home() {
       </section>
 
       <section id="projects">
-        <h1>Projects</h1>
+        <Projects />
       </section>
 
       <section id="contact">
-        <h1>Contact</h1>
+        <Contact />
       </section>
     </div>
   );

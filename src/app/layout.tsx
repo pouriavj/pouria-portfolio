@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import "./globals.css";
 
 import Header from "@/components/Header";
@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   description: "Pouria Vojdani's Personal Portfolio",
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        </body>
+        <AppRouterCacheProvider>
+          <Header />
+          {children}
+        </AppRouterCacheProvider>
+      </body>
     </html>
   );
 }
