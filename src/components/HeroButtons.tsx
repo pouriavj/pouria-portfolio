@@ -16,12 +16,18 @@ export default function HeroButtons() {
           endIcon={<PersonIcon />}
           sx={{
             backgroundColor: "#8171df",
-            padding: "8px 24px",
+            padding: {
+                  xs: "8px 24px",
+                  xl: "10px 34px",
+                },
             borderRadius: "8px",
             textTransform: "none",
             fontSize: "1rem",
             fontWeight: 600,
             fontFamily: "Poppins",
+             "&:hover": {
+                backgroundColor: "#6d5dd3",
+              },
           }}
         >
           About me
@@ -35,7 +41,10 @@ export default function HeroButtons() {
           sx={{
             borderColor: "#8171df",
             color: "white",
-            padding: "8px 24px",
+            padding: {
+                  xs: "8px 24px",
+                  xl: "10px 34px",
+                },
             borderRadius: "8px",
             textTransform: "none",
             fontSize: "1rem",
@@ -43,8 +52,7 @@ export default function HeroButtons() {
             fontFamily: "Poppins",
 
             "&:hover": {
-              borderColor: "#8171df",
-              backgroundColor: "#8171df",
+              backgroundColor: "rgba(129, 113, 223, 0.12)",
             },
           }}
         >

@@ -180,7 +180,7 @@ export default function Contact() {
             variant="contained"
             sx={{
               backgroundColor: "#8171df",
-              padding: "12px 62px",
+              padding: "12px 60px",
               textTransform: "none",
               borderRadius: "8px",
               fontWeight: 600,

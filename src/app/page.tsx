@@ -1,10 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
 import HeroButtons from "@/components/HeroButtons";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import HeroImage from "@/components/HeroImage";
 
 export default function Home() {
   return (
@@ -24,13 +24,7 @@ export default function Home() {
 
             <HeroButtons />
           </div>
-          <Image
-            src={"/Me.png"}
-            alt="My picture"
-            width={387}
-            height={408}
-            priority
-          />
+          <HeroImage />
           <div className="rectangle"></div>
         </div>
       </section>

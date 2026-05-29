@@ -23,6 +23,7 @@ export default function Projects() {
             alt="Project Snippet Editor"
             width={400}
             height={220}
+            priority
             className="project-image"
           />
 
@@ -42,11 +43,17 @@ export default function Projects() {
               endIcon={<LaunchIcon />}
               sx={{
                 backgroundColor: "#8171df",
-                padding: "6px 28px",
+                padding: {
+                  xs: "6px 28px",
+                  xl: "8px 54px",
+                },
                 textTransform: "none",
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
+                "&:hover": {
+                  backgroundColor: "#6d5dd3",
+                },
               }}
             >
               View Live
@@ -60,7 +67,10 @@ export default function Projects() {
               endIcon={<GitHubIcon />}
               sx={{
                 borderColor: "#8171df",
-                padding: "6px 20px",
+                padding: {
+                  xs: "6px 20px",
+                  xl: "8px 36px",
+                },
                 color: "white",
                 textTransform: "none",
                 borderRadius: "6px",
@@ -68,7 +78,7 @@ export default function Projects() {
                 fontFamily: "Poppins",
 
                 "&:hover": {
-                  borderColor: "#8171df",
+                  backgroundColor: "rgba(129, 113, 223, 0.12)",
                 },
               }}
             >
@@ -83,6 +93,7 @@ export default function Projects() {
             alt="Project"
             width={400}
             height={220}
+            priority
             className="project-image"
           />
 
@@ -102,11 +113,17 @@ export default function Projects() {
               endIcon={<LaunchIcon />}
               sx={{
                 backgroundColor: "#8171df",
-                padding: "6px 28px",
+                padding: {
+                  xs: "6px 28px",
+                  xl: "8px 54px",
+                },
                 textTransform: "none",
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
+                "&:hover": {
+                  backgroundColor: "#6d5dd3",
+                },
               }}
             >
               View Live
@@ -120,7 +137,10 @@ export default function Projects() {
               endIcon={<GitHubIcon />}
               sx={{
                 borderColor: "#8171df",
-                padding: "6px 20px",
+                padding: {
+                  xs: "6px 20px",
+                  xl: "8px 36px",
+                },
                 color: "white",
                 textTransform: "none",
                 borderRadius: "6px",
@@ -128,7 +148,7 @@ export default function Projects() {
                 fontFamily: "Poppins",
 
                 "&:hover": {
-                  borderColor: "#8171df",
+                  backgroundColor: "rgba(129, 113, 223, 0.12)",
                 },
               }}
             >
@@ -143,6 +163,7 @@ export default function Projects() {
             alt="Project"
             width={400}
             height={220}
+            priority
             className="project-image"
           />
 
@@ -162,11 +183,17 @@ export default function Projects() {
               endIcon={<LaunchIcon />}
               sx={{
                 backgroundColor: "#8171df",
-                padding: "6px 28px",
+                padding: {
+                  xs: "6px 28px",
+                  xl: "8px 54px",
+                },
                 textTransform: "none",
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
+                "&:hover": {
+                  backgroundColor: "#6d5dd3",
+                },
               }}
             >
               View Live
@@ -180,7 +207,10 @@ export default function Projects() {
               endIcon={<GitHubIcon />}
               sx={{
                 borderColor: "#8171df",
-                padding: "6px 20px",
+                padding: {
+                  xs: "6px 20px",
+                  xl: "8px 36px",
+                },
                 color: "white",
                 textTransform: "none",
                 borderRadius: "6px",
@@ -188,7 +218,7 @@ export default function Projects() {
                 fontFamily: "Poppins",
 
                 "&:hover": {
-                  borderColor: "#8171df",
+                  backgroundColor: "rgba(129, 113, 223, 0.12)",
                 },
               }}
             >
