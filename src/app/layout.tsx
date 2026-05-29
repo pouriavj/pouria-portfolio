@@ -3,6 +3,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import "./globals.css";
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pouria Portfolio",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <Header />
           {children}
+          <Footer />
         </AppRouterCacheProvider>
       </body>
     </html>

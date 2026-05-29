@@ -27,11 +27,12 @@ export default function Contact() {
             <LinkedInIcon className="contact-social-icon" />
           </Link>
 
-          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=pouriav95@gmail.com">
-            <EmailIcon className="contact-social-icon" />
-          </Link>
+          
           <Link href="https://t.me/pouriavj">
             <TelegramIcon className="contact-social-icon" />
+          </Link>
+          <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=pouriav95@gmail.com">
+            <EmailIcon className="contact-social-icon" />
           </Link>
         </div>
       </div>
