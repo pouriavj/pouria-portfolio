@@ -967,7 +967,7 @@ header,
     font-size: 1.5rem !important;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
   .hero-button {
     padding: 6px 28px !important;
   }
