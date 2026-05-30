@@ -130,6 +130,11 @@ header nav .active {
     color: #8171df;
   }
 }
+@media (hover: none) {
+  header nav a:active {
+    color: #8171df;
+  }
+}
 section {
   scroll-margin-top: 60px;
 }
@@ -265,10 +270,16 @@ section {
   transition: 0.2s;
 }
 
-.skill-card:hover {
-  transform: translateY(-4px);
+@media (hover: hover) and (pointer: fine) {
+  .skill-card:hover {
+    transform: translateY(-4px);
+  }
 }
-
+@media (hover: none) {
+  .skill-card:active {
+    transform: translateY(-4px);
+  }
+}
 .active-skill {
   background-color: #8171df;
 }
@@ -328,10 +339,19 @@ section {
   text-align: center;
 }
 
-.service-card:hover {
-  transform: translateY(-6px);
+@media (hover: hover) and (pointer: fine) {
+  .service-card:hover {
+    transform: translateY(-6px);
 
-  box-shadow: 0 12px 30px rgba(129, 113, 223, 0.2);
+    box-shadow: 0 12px 30px rgba(129, 113, 223, 0.2);
+  }
+}
+@media (hover: none) {
+  .service-card:active {
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 30px rgba(129, 113, 223, 0.2);
+  }
 }
 
 .active-service {
@@ -498,12 +518,21 @@ section {
 
   transition: 0.22s;
 }
+/* Hover effect for pc with media selector */
 @media (hover: hover) and (pointer: fine) {
-.contact-social-icon:hover {
-  color: white;
+  .contact-social-icon:hover {
+    color: white;
 
-  transform: translateY(-4px) scale(1.08);
+    transform: translateY(-4px) scale(1.08);
+  }
 }
+/*  Hover(Active) Effects for mobile with active and media selector */
+@media (hover: none) {
+  .contact-social-icon:active {
+    color: white;
+
+    transform: translateY(-4px) scale(1.08);
+  }
 }
 .contact-right {
   padding: 0px 28px;
@@ -562,11 +591,18 @@ section {
   transition: 0.22s;
 }
 @media (hover: hover) and (pointer: fine) {
-.footer-social-icon:hover {
-  color: white;
+  .footer-social-icon:hover {
+    color: white;
 
-  transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
 }
+@media (hover: none) {
+  .footer-social-icon:active {
+    color: white;
+
+    transform: translateY(-3px);
+  }
 }
 /* Default desktop */
 header,
