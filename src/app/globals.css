@@ -946,19 +946,29 @@ header,
   .contact-social-icon {
     font-size: 1.7rem !important;
   }
-
+  .contact-right h3 {
+    font-size: 1rem;
+  }
   /* Footer */
 
   .footer {
     margin-top: 32px;
     gap: 12px;
   }
-
+  .footer-top {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
   .footer-top p {
-    font-size: 0.82rem;
+    font-size: 0.54rem;
   }
 
   .footer-social-icon {
     font-size: 1.5rem !important;
+  }
+}
+@media (max-width: 420px) {
+  .hero-button {
+    padding: 6px 26px !important;
   }
 }
