@@ -125,8 +125,10 @@ header nav .active {
   color: #8171df;
 }
 
-header nav a:hover {
-  color: #8171df;
+@media (hover: hover) and (pointer: fine) {
+  header nav a:hover {
+    color: #8171df;
+  }
 }
 section {
   scroll-margin-top: 60px;
@@ -496,11 +498,12 @@ section {
 
   transition: 0.22s;
 }
-
+@media (hover: hover) and (pointer: fine) {
 .contact-social-icon:hover {
   color: white;
 
   transform: translateY(-4px) scale(1.08);
+}
 }
 .contact-right {
   padding: 0px 28px;
@@ -558,11 +561,12 @@ section {
 
   transition: 0.22s;
 }
-
+@media (hover: hover) and (pointer: fine) {
 .footer-social-icon:hover {
   color: white;
 
   transform: translateY(-3px);
+}
 }
 /* Default desktop */
 header,
