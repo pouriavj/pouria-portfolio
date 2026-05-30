@@ -9,7 +9,9 @@ export const metadata: Metadata = {
   title: "Pouria Portfolio",
   description: "Pouria Vojdani's Personal Portfolio",
 };
-
+export const viewport = {
+  themeColor: "#1a1a2a",
+};
 export default function RootLayout({
   children,
 }: Readonly<{
