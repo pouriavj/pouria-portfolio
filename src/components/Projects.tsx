@@ -36,7 +36,7 @@ export default function Projects() {
 
           <div className="project-buttons">
             <Button
-              className="project-button"
+              className="project-button primary"
               href="https://snippet-editor-lake.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
@@ -52,16 +52,13 @@ export default function Projects() {
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
-                "&:hover": {
-                  backgroundColor: "#6d5dd3",
-                },
               }}
             >
               View Live
             </Button>
 
             <Button
-              className="project-button"
+              className="project-button secondary"
               href="https://github.com/pouriavj/snippet-editor-app"
               target="_blank"
               rel="noopener noreferrer"
@@ -77,10 +74,6 @@ export default function Projects() {
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
-
-                "&:hover": {
-                  backgroundColor: "rgba(129, 113, 223, 0.12)",
-                },
               }}
             >
               Github Repo
@@ -107,7 +100,7 @@ export default function Projects() {
 
           <div className="project-buttons">
             <Button
-              className="project-button"
+              className="project-button primary"
               href="https://pouriavj.github.io/my-ux-samples"
               target="_blank"
               rel="noopener noreferrer"
@@ -123,16 +116,13 @@ export default function Projects() {
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
-                "&:hover": {
-                  backgroundColor: "#6d5dd3",
-                },
               }}
             >
               View Live
             </Button>
 
             <Button
-              className="project-button"
+              className="project-button secondary"
               href="https://github.com/pouriavj/my-ux-samples"
               target="_blank"
               rel="noopener noreferrer"
@@ -148,10 +138,6 @@ export default function Projects() {
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
-
-                "&:hover": {
-                  backgroundColor: "rgba(129, 113, 223, 0.12)",
-                },
               }}
             >
               Github Repo
@@ -178,7 +164,7 @@ export default function Projects() {
 
           <div className="project-buttons">
             <Button
-              className="project-button"
+              className="project-button primary"
               href="https://faradate.ir"
               target="_blank"
               rel="noopener noreferrer"
@@ -194,16 +180,13 @@ export default function Projects() {
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
-                "&:hover": {
-                  backgroundColor: "#6d5dd3",
-                },
               }}
             >
               View Live
             </Button>
 
             <Button
-              className="project-button"
+              className="project-button secondary"
               href="https://github.com/pouriavj"
               target="_blank"
               rel="noopener noreferrer"
@@ -219,10 +202,6 @@ export default function Projects() {
                 borderRadius: "6px",
                 fontWeight: 600,
                 fontFamily: "Poppins",
-
-                "&:hover": {
-                  backgroundColor: "rgba(129, 113, 223, 0.12)",
-                },
               }}
             >
               Github Repo

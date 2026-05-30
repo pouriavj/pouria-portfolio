@@ -12,7 +12,7 @@ export default function HeroButtons() {
     <div className="hero-buttons">
       <Link href="#about">
         <Button
-        className="hero-button"
+          className="hero-button primary"
           variant="contained"
           endIcon={<PersonIcon />}
           sx={{
@@ -26,9 +26,6 @@ export default function HeroButtons() {
             fontSize: "1rem",
             fontWeight: 600,
             fontFamily: "Poppins",
-            "&:hover": {
-              backgroundColor: "#6d5dd3",
-            },
           }}
         >
           About me
@@ -37,7 +34,7 @@ export default function HeroButtons() {
 
       <Link href="#projects">
         <Button
-        className="hero-button"
+          className="hero-button secondary"
           variant="outlined"
           endIcon={<CodeIcon />}
           sx={{
@@ -52,10 +49,6 @@ export default function HeroButtons() {
             fontSize: "1rem",
             fontWeight: 600,
             fontFamily: "Poppins",
-
-            "&:hover": {
-              backgroundColor: "rgba(129, 113, 223, 0.12)",
-            },
           }}
         >
           Projects

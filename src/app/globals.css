@@ -194,6 +194,30 @@ section {
   gap: 24px;
 }
 
+/* Primary Button Hover And Active Effects */
+@media (hover: hover) and (pointer: fine) {
+  .primary:hover {
+    background-color: #6d5dd3;
+  }
+}
+@media (hover: none) {
+  .primary:active {
+    background-color: #6d5dd3;
+  }
+}
+
+/* Secondary Button Hover And Active Effects */
+@media (hover: hover) and (pointer: fine) {
+  .secondary:hover {
+    background-color: rgba(129, 113, 223, 0.12);
+  }
+}
+@media (hover: none) {
+  .secondary:active {
+    background-color: rgba(129, 113, 223, 0.12);
+  }
+}
+
 /* About Me Section */
 
 .about-section {
