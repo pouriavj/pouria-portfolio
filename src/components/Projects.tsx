@@ -36,6 +36,7 @@ export default function Projects() {
 
           <div className="project-buttons">
             <Button
+              className="project-button"
               href="https://snippet-editor-lake.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
@@ -60,11 +61,11 @@ export default function Projects() {
             </Button>
 
             <Button
+              className="project-button"
               href="https://github.com/pouriavj/snippet-editor-app"
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
-              
               sx={{
                 borderColor: "#8171df",
                 padding: {
@@ -100,11 +101,13 @@ export default function Projects() {
           <h3>Tea Shop</h3>
 
           <p>
-            A complete ecommerce tea store featuring shopping, payments, cart management, and ratings.
+            A complete ecommerce tea store featuring shopping, payments, cart
+            management, and ratings.
           </p>
 
           <div className="project-buttons">
             <Button
+              className="project-button"
               href="https://pouriavj.github.io/my-ux-samples"
               target="_blank"
               rel="noopener noreferrer"
@@ -129,11 +132,11 @@ export default function Projects() {
             </Button>
 
             <Button
+              className="project-button"
               href="https://github.com/pouriavj/my-ux-samples"
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
-         
               sx={{
                 borderColor: "#8171df",
                 padding: {
@@ -175,6 +178,7 @@ export default function Projects() {
 
           <div className="project-buttons">
             <Button
+              className="project-button"
               href="https://faradate.ir"
               target="_blank"
               rel="noopener noreferrer"
@@ -199,11 +203,11 @@ export default function Projects() {
             </Button>
 
             <Button
+              className="project-button"
               href="https://github.com/pouriavj"
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
-            
               sx={{
                 borderColor: "#8171df",
                 padding: {

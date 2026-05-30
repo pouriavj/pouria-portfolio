@@ -660,7 +660,33 @@ header,
 /* ========================= */
 /* MOBILE RESPONSIVE */
 /* ========================= */
-
+/* Micro adjustments for all of the device screens sizes inside devtools */
+@media (max-width: 1024px) {
+  header,
+  .hero-flex,
+  .about-section,
+  .services-section,
+  .projects-section,
+  .contact-section,
+  .footer {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .project-button {
+    padding: 8px 20px !important;
+  }
+  .project-card p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 912px) {
+  .project-button {
+    padding: 8px 10px !important;
+  }
+  .project-card p {
+    font-size: 0.75rem;
+  }
+}
 @media (max-width: 900px) {
   header,
   .hero-flex,
@@ -678,9 +704,7 @@ header,
   header {
     height: 60px;
   }
-  header h1 {
-    display: none;
-  }
+
   header nav {
     gap: 28px;
   }
@@ -722,11 +746,15 @@ header,
     width: 300px;
     align-self: center;
   }
-
-  .hero-title {
-    font-size: 2.3rem;
+  .hero-intro {
+    font-size: 1.4rem;
   }
-
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-description {
+    font-size: 1.2rem;
+  }
   .hero-description br {
     display: none;
   }
@@ -734,10 +762,9 @@ header,
   .hero-buttons {
     flex-wrap: wrap;
   }
-
   /* About */
   .about-text {
-    font-size: 0.85rem;
+    font-size: 1.1rem;
   }
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -756,6 +783,12 @@ header,
   .services-grid {
     grid-template-columns: 1fr;
   }
+  .service-card p {
+    font-size: 1.4rem;
+  }
+  .service-card h3 {
+    font-size: 2rem;
+  }
 
   /* Projects */
 
@@ -767,7 +800,19 @@ header,
     gap: 12px;
     flex-wrap: wrap;
   }
-
+  .projects-description {
+    font-size: 1.1rem;
+  }
+  .project-card p {
+    font-size: 1.2rem;
+  }
+  .project-card h3 {
+    font-size: 1.6rem;
+  }
+  .project-buttons {
+    justify-content: flex-start;
+    gap: 24px;
+  }
   /* Contact */
 
   .contact-section {
@@ -781,13 +826,18 @@ header,
   .contact-right {
     padding: 0;
   }
+  .contact-heading {
+    font-size: 1.2rem;
+  }
+  .contact-right h3 {
+    font-size: 1.6rem;
+  }
 
   /* Footer */
 
   .footer-top {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -817,9 +867,8 @@ header,
     flex-direction: column;
     gap: 18px;
   }
-
   header h1 {
-    font-size: 1.15rem;
+    display: none;
   }
 
   header nav {
@@ -967,6 +1016,12 @@ header,
     font-size: 1.5rem !important;
   }
 }
+@media (max-width: 432px) {
+  .hero-button {
+    padding: 8px auto !important;
+  }
+}
+
 @media (max-width: 400px) {
   .hero-button {
     padding: 6px 30px !important;
@@ -975,5 +1030,18 @@ header,
 @media (max-width: 380px) {
   .hero-button {
     padding: 6px 27px !important;
+  }
+}
+@media (max-width: 370px) {
+  .hero-button {
+    padding: 6px 20px !important;
+  }
+  header nav {
+    gap: 24px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-button {
+    padding: 6px 18px !important;
   }
 }
