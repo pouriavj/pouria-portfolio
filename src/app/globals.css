@@ -969,7 +969,7 @@ header,
 }
 @media (max-width: 390px) {
   .hero-button {
-    padding: 6px 30px !important;
+    padding: 6px 28px !important;
   }
 }
 @media (max-width: 380px) {
@@ -977,5 +977,3 @@ header,
     padding: 6px 27px !important;
   }
 }
-
-
