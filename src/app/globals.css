@@ -922,23 +922,26 @@ header,
   }
 
   /* Header */
-
+   header h1 {
+    display: none;
+  }
   header {
     height: auto;
+    width: 100%;
     padding-top: 18px;
     padding-bottom: 18px;
-
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
     gap: 18px;
   }
-  header h1 {
-    display: none;
-  }
+ 
 
   header nav {
+    width: 100%;
     gap: 36px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   header nav a {

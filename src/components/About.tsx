@@ -9,7 +9,7 @@ export default function About() {
       <h2 className="about-heading">About me:</h2>
 
       <p className="about-text">
-        Hi, my name is Pouria Vojdani, I am a Fullstack web developer, UI designer, and Mobile developer. I have honed my skills in Web Development and advanced UI design principles, with a core understanding of modern technologies and user experience.
+        Hi, my name is Pouria Vojdani, I am a Fullstack web developer, UI designer, and Mobile developer. I have honed my skills in Web Development and UI design principles, with a core understanding of modern technologies and user experience.
         <br />
         Here are the major skills i have.
       </p>
