@@ -27,7 +27,6 @@ export default function Contact() {
             <LinkedInIcon className="contact-social-icon" />
           </Link>
 
-          
           <Link href="https://t.me/pouriavj">
             <TelegramIcon className="contact-social-icon" />
           </Link>
@@ -177,6 +176,7 @@ export default function Contact() {
             }}
           />
           <Button
+            className="primary"
             variant="contained"
             sx={{
               backgroundColor: "#8171df",
@@ -186,10 +186,6 @@ export default function Contact() {
               fontWeight: 600,
               fontFamily: "Poppins",
               alignSelf: "flex-start",
-
-              "&:hover": {
-                backgroundColor: "#6d5dd3",
-              },
             }}
           >
             Send
