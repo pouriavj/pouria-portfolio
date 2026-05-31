@@ -147,7 +147,7 @@ export default function Projects() {
 
         <div className="project-card">
           <Image
-            src="/faradate-portfolio-image.png"
+            src="/faradate-cover-image.png"
             alt="Project"
             width={400}
             height={220}

@@ -1,62 +1,10 @@
+:root {
+  --font-main: var(--font-montserrat);
+  --font-secondary: var(--font-poppins);
+}
+
 html {
   -webkit-text-size-adjust: 100%;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-/* ========================= */
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
 }
 
 * {
@@ -67,7 +15,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-main);
   background-color: #1a1a2a;
   scroll-behavior: smooth;
 }
@@ -109,7 +57,7 @@ header h1 {
 header nav {
   display: flex;
   gap: 55px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 header nav a {
@@ -186,7 +134,7 @@ section {
 
   margin-bottom: 22px;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .hero-buttons {
@@ -241,7 +189,7 @@ section {
 
   color: #e4e4e4;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   margin-top: 4px;
   margin-bottom: 8px;
 }
@@ -257,7 +205,7 @@ section {
 .experience-number {
   font-size: 6rem;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   color: #8171df;
 
   margin: 0;
@@ -271,7 +219,7 @@ section {
 
   line-height: 1.6;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .skills-grid {
@@ -286,7 +234,7 @@ section {
   background-color: #bdbdbd;
 
   padding: 24px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -397,7 +345,7 @@ section {
   color: white;
   margin-top: 8;
   margin-bottom: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
 }
 .active-service h3 {
   color: #8171df;
@@ -409,7 +357,7 @@ section {
 
   color: #e5e5e5;
   margin-top: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
 }
 /*  */
 /* Projects */
@@ -432,7 +380,7 @@ section {
 
   color: #e4e4e4;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   margin-top: 4px;
   margin-bottom: 22px;
 }
@@ -456,7 +404,7 @@ section {
 
 .project-image {
   width: 100%;
-
+  height: auto;
   object-fit: cover;
 
   border-radius: 6px;
@@ -479,7 +427,7 @@ section {
 
   font-size: 1rem;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   margin-top: 0;
 }
 
@@ -514,7 +462,7 @@ section {
 
   color: #e4e4e4;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   margin-top: 16px;
   margin-bottom: 22px;
 }
@@ -597,7 +545,7 @@ section {
   font-size: 0.95rem;
   font-weight: 600;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .footer-socials {
@@ -922,7 +870,7 @@ header,
   }
 
   /* Header */
-   header h1 {
+  header h1 {
     display: none;
   }
   header {
@@ -935,7 +883,6 @@ header,
     flex-direction: column;
     gap: 18px;
   }
- 
 
   header nav {
     width: 100%;
@@ -1081,11 +1028,6 @@ header,
 
   .footer-social-icon {
     font-size: 1.5rem !important;
-  }
-}
-@media (max-width: 432px) {
-  .hero-button {
-    padding: 8px auto !important;
   }
 }
 
