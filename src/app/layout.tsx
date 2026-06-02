@@ -19,6 +19,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pouriavojdani.ir"),
   title: "Pouria Vojdani | Full Stack Developer",
   description:
     "Full Stack Developer specializing in React, Next.js and Node.js.",
