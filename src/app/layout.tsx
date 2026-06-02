@@ -20,16 +20,16 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pouriavojdani.ir"),
-  title: "Pouria Vojdani | Full Stack Developer",
+  title: "Pouria Vojdani Portfolio",
   description:
-    "Full Stack Developer specializing in React, Next.js and Node.js.",
+    "Portfolio of Pouria Vojdani, Full Stack Developer specializing in React, Next.js, Node.js, TypeScript, PostgreSQL, and React Native.",
 
   openGraph: {
-    title: "Pouria Vojdani",
+    title: "Pouria Vojdani Portfolio",
     description:
-      "Full Stack Developer specializing in React, Next.js and Node.js.",
+      "Portfolio of Pouria Vojdani, Full Stack Developer specializing in React, Next.js, Node.js, TypeScript, PostgreSQL, and React Native.",
     url: "https://pouriavojdani.ir",
-    siteName: "Pouria Vojdani",
+    siteName: "Pouria Vojdani Portfolio",
     type: "website",
   },
   manifest: "/site.webmanifest",
