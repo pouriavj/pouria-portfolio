@@ -19,8 +19,18 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Pouria Portfolio",
-  description: "Pouria Vojdani's Personal Portfolio",
+  title: "Pouria Vojdani | Full Stack Developer",
+  description:
+    "Full Stack Developer specializing in React, Next.js and Node.js.",
+
+  openGraph: {
+    title: "Pouria Vojdani",
+    description:
+      "Full Stack Developer specializing in React, Next.js and Node.js.",
+    url: "https://pouriavojdani.ir",
+    siteName: "Pouria Vojdani",
+    type: "website",
+  },
   manifest: "/site.webmanifest",
   verification: {
     google: "J_Lh70Mw7L2hiHPJAfoZNRprpGlhLNkIaI_gisA4bOU",
