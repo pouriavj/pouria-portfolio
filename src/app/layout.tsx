@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: "Pouria Portfolio",
   description: "Pouria Vojdani's Personal Portfolio",
   manifest: "/site.webmanifest",
+  verification: {
+    google: "J_Lh70Mw7L2hiHPJAfoZNRprpGlhLNkIaI_gisA4bOU",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
