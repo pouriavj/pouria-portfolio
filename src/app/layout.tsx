@@ -32,10 +32,24 @@ export const metadata: Metadata = {
     siteName: "Pouria Vojdani Portfolio",
     type: "website",
   },
+  alternates: {
+    canonical: "https://pouriavojdani.ir",
+  },
   manifest: "/site.webmanifest",
   verification: {
     google: "J_Lh70Mw7L2hiHPJAfoZNRprpGlhLNkIaI_gisA4bOU",
   },
+  authors: [{ name: "Pouria Vojdani" }],
+  keywords: [
+    "Pouria Vojdani",
+    "portfolio",
+    "full stack developer",
+    "frontend developer",
+    "Next.js developer",
+    "React developer",
+    "JavaScript developer",
+    "web developer portfolio",
+  ],
   icons: {
     icon: [
       { url: "/favicon.ico" },

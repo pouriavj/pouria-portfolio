@@ -4,7 +4,6 @@ import Image from "next/image";
 import Button from "@mui/material/Button";
 
 import LaunchIcon from "@mui/icons-material/Launch";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Projects() {
   return (
@@ -19,15 +18,15 @@ export default function Projects() {
       <div className="projects-grid">
         <div className="project-card">
           <Image
-            src="/snippet-editor-image.png"
-            alt="Project Snippet Editor"
+            src="/codevault-cover-image.png"
+            alt="Project CodeVault Editor"
             width={400}
             height={220}
             priority
             className="project-image"
           />
 
-          <h3>Snippet Editor</h3>
+          <h3>CodeVault</h3>
 
           <p>
             A VS Code-inspired editor with powerful coding tools and an
@@ -37,7 +36,7 @@ export default function Projects() {
           <div className="project-buttons">
             <Button
               className="project-button primary"
-              href="https://snippet-editor-lake.vercel.app"
+              href="https://codevault.ir"
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
@@ -59,7 +58,7 @@ export default function Projects() {
 
             <Button
               className="project-button secondary"
-              href="https://github.com/pouriavj/snippet-editor-app"
+              href="https://github.com/pouriavj/codevault"
               target="_blank"
               rel="noopener noreferrer"
               variant="outlined"
@@ -84,7 +83,7 @@ export default function Projects() {
         <div className="project-card">
           <Image
             src="/teashop-portfolio-image.png"
-            alt="Project"
+            alt="Project Tea Shop"
             width={400}
             height={220}
             priority
@@ -148,7 +147,7 @@ export default function Projects() {
         <div className="project-card">
           <Image
             src="/faradate-cover-image.png"
-            alt="Project"
+            alt="Faradate Website"
             width={400}
             height={220}
             priority
