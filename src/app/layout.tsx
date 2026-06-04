@@ -32,9 +32,6 @@ export const metadata: Metadata = {
     siteName: "Pouria Vojdani Portfolio",
     type: "website",
   },
-  alternates: {
-    canonical: "https://pouriavojdani.ir",
-  },
   manifest: "/site.webmanifest",
   verification: {
     google: "J_Lh70Mw7L2hiHPJAfoZNRprpGlhLNkIaI_gisA4bOU",
