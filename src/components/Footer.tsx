@@ -25,10 +25,10 @@ export default function Footer() {
           <GitHubIcon className="footer-social-icon" />
         </Link>
 
-        <Link href="https://linkedin.com/in/yourusername">
+        <Link href="https://www.linkedin.com/in/pouriavojdani">
           <LinkedInIcon className="footer-social-icon" />
         </Link>
-        <Link href="https://t.me/yourusername">
+        <Link href="https://t.me/pouriavj">
           <TelegramIcon className="footer-social-icon" />
         </Link>
         <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=pouriav95@gmail.com">
